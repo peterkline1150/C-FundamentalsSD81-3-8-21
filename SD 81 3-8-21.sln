@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "Reference
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypes", "ValueTypes\ValueTypes.csproj", "{1CAAE92E-3745-4E56-9A72-BC64FB16E356}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{D36BD429-03D4-435B-A679-D4837AFFBD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison", "Comparison\Comparison.csproj", "{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1CAAE92E-3745-4E56-9A72-BC64FB16E356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAAE92E-3745-4E56-9A72-BC64FB16E356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAAE92E-3745-4E56-9A72-BC64FB16E356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36BD429-03D4-435B-A679-D4837AFFBD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36BD429-03D4-435B-A679-D4837AFFBD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36BD429-03D4-435B-A679-D4837AFFBD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36BD429-03D4-435B-A679-D4837AFFBD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
