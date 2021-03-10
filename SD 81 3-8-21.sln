@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison", "Comparison\Comparison.csproj", "{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{631F5D03-D22B-4BF1-9821-F5692278647C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE8EC2F3-8EF5-40C8-B00E-0F0EB6677A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631F5D03-D22B-4BF1-9821-F5692278647C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631F5D03-D22B-4BF1-9821-F5692278647C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631F5D03-D22B-4BF1-9821-F5692278647C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631F5D03-D22B-4BF1-9821-F5692278647C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
