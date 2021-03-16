@@ -106,13 +106,18 @@ namespace StreamingContentRepositoryTest
         //                        $"{content.StarRating}";
         //        return result;
         //    }
+
+        //Test the delete method
         [TestMethod]
         public void DeleteExistingContent_ShouldReturnTrue()
         {
+            //Arrange
             StreamingContent content = _repo.GetContentByTitle("Rubber");
 
+            //Act we are removing the movie here...
             bool removeResult = _repo.DeleteExistingContent(content);
 
+            //Assert
             Assert.IsTrue(removeResult);
         }
     }
