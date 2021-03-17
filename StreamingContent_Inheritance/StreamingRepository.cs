@@ -90,7 +90,7 @@ namespace StreamingContent_Inheritance
 
         public List<Show> GetShowsByAverageRunTime(double averageRunTime)
         {
-            List<Show> showsByAverageRunTime = new List<Movie>();
+            List<Show> showsByAverageRunTime = new List<Show>();
             List<Show> allShows = GetAllShows();
 
             foreach (Show content in allShows)
@@ -101,6 +101,35 @@ namespace StreamingContent_Inheritance
                 }
             }
             return showsByAverageRunTime;
+        }
+
+        public List<Show> GetShowsByNumberOfEpisodes(int episodeCount)
+        {
+            List<Show> showsByNumberOfEpisodes = new List<Show>();
+            List<Show> allShows = GetAllShows();
+
+            foreach (Show content in allShows)
+            {
+                if (content.EpisodeCount > episodeCount)
+                {
+                    showsByNumberOfEpisodes.Add(content);
+                }
+            }
+            return showsByNumberOfEpisodes;
+        }
+
+        public List<StreamingContent> GetsShowsAndMoviesByRating (double starRating)
+        {
+            List<StreamingContent> byRating = new List<StreamingContent>();
+
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content.StarRating == starRating)
+                {
+                    byRating.Add(content);
+                }
+            }
+            return byRating;
         }
     }
 }
